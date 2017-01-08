@@ -1,0 +1,15 @@
+{
+    "name": "Selkis/VenID",
+    "description": "Consultation of Venezuelan CI",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Selkis Soluciones",
+            "email": "servicios@selkis.com.ve"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ixudra/curl": "6.*"
+    }
+}
