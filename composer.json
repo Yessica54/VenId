@@ -1,6 +1,7 @@
 {
     "name": "selkis/ven-id",
     "description": "Consultation of Venezuelan CI",
+    "type": "selkis",
     "keywords": [
         "seniat",
         "cne",
