@@ -6,6 +6,7 @@
         "cne",
         "id"
     ],
+    "minimum-stability": "dev",
     "homepage": "https://github.com/Yessica54/VenId",
     "license": "MIT",
     "authors": [
@@ -18,7 +19,7 @@
     "require": {
         "php": ">=5.4.0",
         "illuminate/support": "~5.0",
-        "ixudra/curl": "6.*"
+        "ixudra/curl": "6.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.2"
