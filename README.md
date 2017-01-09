@@ -17,6 +17,7 @@ Ixudra\Curl\CurlServiceProvider::class,
 Add the Aliases to your config/app.php aliases array:
 
 ```php
+'Curl'   => Ixudra\Curl\Facades\Curl::class,
 'Seniat' => Selkis\VenID\Facades\SeniatFacades::class,
 'CNE' => Selkis\VenID\Facades\CNEFacades::class,
 ```
