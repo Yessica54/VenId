@@ -7,7 +7,6 @@
         "cne",
         "id"
     ],
-    "minimum-stability": "dev",
     "homepage": "https://github.com/Yessica54/VenId",
     "license": "MIT",
     "authors": [
