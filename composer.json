@@ -20,6 +20,9 @@
         "illuminate/support": "~5.0",
         "ixudra/curl": "6.*"
     },
+    "require-dev": {
+        "phpunit/phpunit": "^5.2"
+    },
     "autoload": {
         "psr-4": {
             "Selkis\\VenID\\": "src"
