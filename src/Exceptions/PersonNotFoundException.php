@@ -10,7 +10,7 @@ class PersonNotFoundException extends \Exception{
     public function __construct()
     {
         $this->message = sprintf('ID number not found');
-        $this->code = $code;
+        $this->code = '404';
     }
 
 }

@@ -38,7 +38,7 @@ class CNE
     }
 
     if ($this->isVotante($response->content)) {
-      dd($this->getArrayData($response->content));
+      $this->getArrayData($response->content);
     }else{
       throw new PersonNotFoundException();
     }
