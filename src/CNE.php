@@ -38,12 +38,10 @@ class CNE
     }
 
     if ($this->isVotante($response->content)) {
-      $this->getArrayData($response->content);
+      return $this->getArrayData($response->content);
     }else{
       throw new PersonNotFoundException();
     }
-
-   	return  $response_json;
   }
 
   /**
